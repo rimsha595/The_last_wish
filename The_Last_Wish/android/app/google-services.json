@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "835269606922",
+    "project_id": "the-last-wish-e71dc",
+    "storage_bucket": "the-last-wish-e71dc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835269606922:android:329b63022685ec7e4de9f3",
+        "android_client_info": {
+          "package_name": "com.example.the_last_wish"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO8IXGE2Iuq2omVdJWy3YkTcr373yzCLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,49 @@
+name: the_last_wish
+description: A horror wish app.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.8.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_animate: ^4.5.0
+  # Firebase
+  firebase_core: ^3.8.1
+  cloud_firestore: ^5.5.1
+  firebase_storage: ^12.3.7
+  cloudinary_public: ^0.23.1
+  # Camera
+  camera: ^0.11.0+2
+
+  # Storage
+  shared_preferences: ^2.3.2
+  path_provider: ^2.1.5
+  path: ^1.9.0
+
+  # Audio
+  audioplayers: ^6.1.0
+  video_player: ^2.8.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/images/icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/sounds/
+    - assets/images/
+    - assets/videos/
